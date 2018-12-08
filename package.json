@@ -1,0 +1,29 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">8.5.0"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.0",
+    "source-map-loader": "^0.2.3"
+  },
+  "devDependencies": {
+    "inquirer": "^5.0.0",
+    "mysql": "^2.15.0",
+    "q": "^1.5.1",
+    "ts-loader": "^4.4.2",
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "new": "node ./script/make/script",
+    "build": "node ./script/build/script"
+  },
+  "keywords": [],
+  "author": "Juscelino Fernandes da Costa Junior",
+  "license": "ISC",
+  "description": ""
+}
